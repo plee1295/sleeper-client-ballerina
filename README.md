@@ -9,13 +9,13 @@ This package was created to allow ballerina developers an easy way to interact w
 To import the entire package:
 
 ```ballerina
-import plee/sleeper as sleeper;
+import parker/sleeper as sleeper;
 ```
 
 To import a specific module:
 
 ```ballerina
-import plee/sleeper.drafts as drafts;
+import parker/sleeper.drafts as drafts;
 ```
 
 Available modules include drafts, leagues, players, and users.
