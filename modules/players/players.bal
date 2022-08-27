@@ -5,7 +5,7 @@ const API_URL = "https://api.sleeper.app/v1/";
 # Returns all nfl players. 
 #
 # + return - all nfl players
-public function getAllNflPlayers() returns json|error {
+public function getAllPlayers() returns json|error {
     http:Client sleeper = check new(API_URL);
     json players = check sleeper->get("/players/nfl");
     return players;
